@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AplikasiKeuangan" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#B6B09F</item>
+        <item name="colorPrimaryVariant">#EAE4D5</item>
+        <item name="colorSecondary">#F2F2F2</item>
+
+        <item name="android:colorBackground">#F2F2F2</item>
+        <item name="colorSurface">#EAE4D5</item>
+
+        <item name="colorOnPrimary">#000000</item>
+        <item name="colorOnSecondary">#181818</item>
+        <item name="colorOnBackground">#2A2A2A</item>
+        <item name="colorOnSurface">#383838</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">#EAE4D5</item>
+    </style>
+
+    <style name="MyCardViewStyle">
+        <item name="android:background">#EAE4D5</item>
+        <item name="cardBackgroundColor">#EAE4D5</item>
+    </style>
+    
+    <style name="MyTextStyle">
+        <item name="android:textColor">#2A2A2A</item>
+    </style>
+
+    <style name="MyButtonStyle">
+        <item name="backgroundTint">#756448</item>
+        <item name="tint">#FFF</item>
+    </style>
+
+    <style name="MySwitchStyle">
+        <item name="android:thumbTint">#756448</item>
+        <item name="android:trackTint">#181818</item>
+    </style>
+
+    <style name="MyBackgroundMilestoneStyle">
+        <item name="android:background">#EAE4D5</item>
+    </style>
+
+    <style name="Theme.MyApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Tema utama aplikasi -->
+    </style>
+
+    <style name="Theme.AplikasiKeuangan.Splash" parent="Theme.SplashScreen">
+        <!-- Warna latar belakang splash screen -->
+        <item name="windowSplashScreenBackground">#E2DBD4</item>
+
+        <!-- Ikon/logo yang muncul di tengah splash screen -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_desain</item>
+
+        <!-- Tema yang digunakan setelah splash screen berakhir -->
+        <item name="postSplashScreenTheme">@style/Base.Theme.AplikasiKeuangan</item>
+    </style>
+
+    <style name="Theme.AplikasiKeuangan.AppCompat" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#B6B09F</item>
+        <item name="colorPrimaryVariant">#EAE4D5</item>
+        <item name="colorSecondary">#F2F2F2</item>
+
+        <item name="android:colorBackground">#F2F2F2</item>
+        <item name="colorSurface">#EAE4D5</item>
+
+        <item name="colorOnPrimary">#000000</item>
+        <item name="colorOnSecondary">#181818</item>
+        <item name="colorOnBackground">#2A2A2A</item>
+        <item name="colorOnSurface">#383838</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">#EAE4D5</item>
+    </style>
+
+
+    <style name="Theme.AplikasiKeuangan" parent="Base.Theme.AplikasiKeuangan" />
+</resources>

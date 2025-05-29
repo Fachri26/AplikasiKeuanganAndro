@@ -1,0 +1,70 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AplikasiKeuangan" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#50420B</item>
+        <item name="colorPrimaryVariant">#372405</item>
+        <item name="colorSecondary">#474747</item>
+
+        <item name="android:colorBackground">#2A2A2A</item>
+        <item name="colorSurface">#181818</item>
+
+        <item name="colorOnPrimary">#000000</item>
+        <item name="colorOnSecondary">#181818</item>
+        <item name="colorOnBackground">#2A2A2A</item>
+        <item name="colorOnSurface">#383838</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">#503C07</item>
+    </style>
+
+    <style name="MyCardViewStyle">
+        <item name="android:background">#372405</item>
+        <item name="cardBackgroundColor">#372405</item>
+    </style>
+
+    <style name="MyTextStyle">
+        <item name="android:textColor">#D1D0D0</item>
+    </style>
+
+    <style name="MyButtonStyle">
+        <item name="backgroundTint">#2C2004</item>
+        <item name="tint">#8A8888</item>
+    </style>
+
+    <style name="MySwitchStyle">
+        <item name="android:thumbTint">#EAE4D5</item>
+        <item name="android:trackTint">#EAE4D5</item>
+    </style>
+
+    <style name="MyBackgroundMilestoneStyle">
+        <item name="android:background">#2C2004</item>
+    </style>
+
+    <style name="Theme.AplikasiKeuangan.Splash" parent="Theme.SplashScreen">
+        <!-- Warna latar belakang splash screen -->
+        <item name="windowSplashScreenBackground">#E2DBD4</item>
+
+        <!-- Ikon/logo yang muncul di tengah splash screen -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_desain</item>
+
+        <!-- Tema yang digunakan setelah splash screen berakhir -->
+        <item name="postSplashScreenTheme">@style/Base.Theme.AplikasiKeuangan</item>
+    </style>
+
+    <style name="Theme.AplikasiKeuangan.AppCompat" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#50420B</item>
+        <item name="colorPrimaryVariant">#372405</item>
+        <item name="colorSecondary">#474747</item>
+
+        <item name="android:colorBackground">#2A2A2A</item>
+        <item name="colorSurface">#181818</item>
+
+        <item name="colorOnPrimary">#000000</item>
+        <item name="colorOnSecondary">#181818</item>
+        <item name="colorOnBackground">#2A2A2A</item>
+        <item name="colorOnSurface">#383838</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">#503C07</item>
+    </style>
+
+    <style name="Theme.AplikasiKeuangan" parent="Base.Theme.AplikasiKeuangan" />
+</resources>
