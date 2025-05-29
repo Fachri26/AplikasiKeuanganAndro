@@ -41,7 +41,6 @@ class TransaksiAdapter(
         holder.bind(list[position])
     }
 
-    // Tambahkan fungsi ini supaya fragment bisa menambah data baru
     fun tambahTransaksi(transaksi: Transaksi) {
         list.add(transaksi)
         notifyItemInserted(list.size - 1)

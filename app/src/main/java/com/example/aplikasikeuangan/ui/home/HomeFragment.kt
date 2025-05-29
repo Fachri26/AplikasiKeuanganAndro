@@ -63,8 +63,6 @@ class HomeFragment : Fragment() {
 
             }
 
-
-
             val pieData = PieData(dataSet)
 
             binding.pieChart.apply {
