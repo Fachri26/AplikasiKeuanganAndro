@@ -10,7 +10,7 @@ import com.example.aplikasikeuangan.model.Transaksi
 @Database(entities = [Transaksi::class, Milestone::class], version = 2, exportSchema = false)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun transaksiDao(): TransaksiDao
-    abstract fun milestoneDao(): MilestoneDao // <-- Tambahkan ini
+    abstract fun milestoneDao(): MilestoneDao
 
     companion object {
         @Volatile
@@ -23,7 +23,7 @@ abstract class AppDatabase : RoomDatabase() {
                     AppDatabase::class.java,
                     "aplikasi_keuangan_db"
                 )
-                    .fallbackToDestructiveMigration() // <-- Tambahkan jika kamu tidak pakai Migration
+                    .fallbackToDestructiveMigration()
                     .build()
                 INSTANCE = instance
                 instance

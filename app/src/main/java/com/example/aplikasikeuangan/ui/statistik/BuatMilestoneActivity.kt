@@ -43,7 +43,7 @@ class BuatMilestoneActivity : ComponentActivity() {
 
             milestoneViewModel.insert(milestone)
             Toast.makeText(this, "Milestone berhasil dibuat", Toast.LENGTH_SHORT).show()
-            finish() // Kembali ke StatistikFragment
+            finish()
         }
     }
 }

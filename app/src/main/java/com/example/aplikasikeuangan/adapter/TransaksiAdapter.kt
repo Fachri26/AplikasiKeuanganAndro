@@ -9,7 +9,7 @@ import java.text.NumberFormat
 import java.util.*
 
 class TransaksiAdapter(
-    private val list: MutableList<Transaksi>, // ubah jadi MutableList biar bisa tambah data
+    private val list: MutableList<Transaksi>,
     private val onClick: (Transaksi) -> Unit
 ) : RecyclerView.Adapter<TransaksiAdapter.TransaksiViewHolder>() {
 
